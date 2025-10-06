@@ -1,0 +1,211 @@
+{% load static %}
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Predict</title>
+
+    <link rel="stylesheet" href="{% static 'style/predict.css' %}">
+
+</head>
+
+<body> <!-- partial:index.partial.html -->
+
+    <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span>
+
+        <div class="signin">
+
+            <div class="content">
+
+                <h2>Predict</h2>
+
+                <div class="form">
+                    <form id="predictionForm" method="POST">
+                
+                        <div class="inputBox" style="padding-bottom: 10px;">
+                            <input type="text" name="n1" required> <i>Age</i>
+                        </div>
+                
+                        <div class="inputBox" style="padding-bottom: 10px;">
+                            <input type="text" name="n2" required> <i>BMI</i>
+                        </div>
+                
+                        <div class="inputBox" style="padding-bottom: 10px;">
+                            <input type="text" name="n3" required> <i>Insulin</i>
+                        </div>
+                
+                        <div class="inputBox" style="padding-bottom: 10px;">
+                            <input type="text" name="n4" required> <i>Glucose</i>
+                        </div>
+                
+                        <div class="inputBox" style="padding-bottom: 10px;">
+                            <input type="text" name="n5" required> <i>Pregnancies</i>
+                        </div>
+                
+                        <div class="inputBox" style="padding-bottom: 10px;">
+                            <input type="text" name="n6" required> <i>Skin Thickness</i>
+                        </div>
+                
+                        <div class="inputBox" style="padding-bottom: 10px;">
+                            <input type="text" name="n7" required> <i>Blood Pressure</i>
+                        </div>
+                
+                        <div class="inputBox" style="padding-bottom: 10px;">
+                            <input type="text" name="n8" required> <i>Diabetes Pedigree Function</i>
+                        </div>
+                
+                        <div class="inputBox" style="padding-bottom: 30px;">
+                            <input type="submit" value="SUBMIT">
+                        </div>
+                
+                    </form>
+                </div>
+                
+                <!-- Modal for displaying the result -->
+                <div id="resultModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Your Result</h2>
+                        <p id="resultText">{{ result2 }}</p> <!-- Django will dynamically insert the result here -->
+                    </div>
+                </div>
+                
+                <!-- CSS for modal styling -->
+                <style>
+                    /* The Modal (background) */
+                    .modal {
+                        display: none;
+                        /* Hidden by default */
+                        position: fixed;
+                        z-index: 1;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.8);
+                        /* Black background with transparency */
+                    }
+                
+                    /* Modal content */
+                    .modal-content {
+                        background-color: #2f2f2f;
+                        margin: 15% auto;
+                        padding: 20px;
+                        border: 2px solid #888;
+                        width: 650px;
+                        height: 180px;
+                        color: #fff;
+                        text-align: center;
+                        border-radius: 15px;
+                    }
+                    #resultText {
+                        padding: 30px;
+                        font-size: 30px;
+                        font-family: 'Courier New', Courier, monospace;
+                    }
+                
+                    /* Close button */
+                    .close {
+                        color: #aaa;
+                        float: right;
+                        font-size: 28px;
+                        font-weight: bold;
+                        cursor: pointer;
+                        background: none;
+                        border: none;
+                        right: 1px;
+                        top: 1px;
+                       
+                    }
+                  
+                
+                    .close:hover,
+                    .close:focus {
+                        color: #fff;
+                        text-decoration: none;
+                        cursor: pointer;
+                        border-radius: 20%;
+                        padding: 20px;
+                       
+                        
+                    }
+                </style>
+                
+                <!-- JavaScript to handle modal functionality -->
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById("resultModal");
+
+                    // Get the close button
+                    var span = document.getElementsByClassName("close")[0];
+
+                    // Get the form
+                    var form = document.getElementById('predictionForm');
+
+                    // Handle form submission
+                    form.addEventListener('submit', function (event) {
+                        event.preventDefault(); // Prevent form from submitting
+
+                        // Show the modal
+                        modal.style.display = "block";
+                    });
+
+                    // Close the modal when the user clicks on the 'X' button
+                    span.onclick = function () {
+                        modal.style.display = "none";
+                    }
+
+                    // Close the modal when the user clicks anywhere outside the modal content
+                    window.onclick = function (event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                </script>
+
+
+            </div>
+
+        </div>
+
+    </section> <!-- partial -->
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+{% load static %}
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Predict</title>
+
+    <link rel="stylesheet" href="{% static 'style/predict.css' %}">
+
+</head>
+
+<body> <!-- partial:index.partial.html -->
+
+    <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span>
+        <span></span> <span></span> <span></span> <span></span> <span></span>
+
+        <div class="signin">
+
+            <div class="content">
+
+                <h2>Predict</h2>
+
+                
+                <div class="form" >
+                <form action="result" id="predictionForm">
+
+                    <div class="inputBox" style="padding-bottom: 10px;">
+
+                        <input type="text" name="n1" required> <i>Pregnancies</i>
+
+                    </div>
+
+                    <div class="inputBox" style="padding-bottom: 10px;">
+                    
+                        <input type="text" name="n2" required > <i>Glucose</i>
+                    
+                    </div>
+
+                    <div class="inputBox" style="padding-bottom: 10px;">
+                    
+                        <input type="text" name="n3" required > <i>Blood Pressure</i>
+                    
+                    </div>
+
+                    <div class="inputBox" style="padding-bottom: 10px;">
+                    
+                        <input type="text" name="n4" required> <i>Skin Thickness</i>
+                    
+                    </div>
+
+                    <div class="inputBox" style="padding-bottom: 10px;">
+                    
+                        <input type="text" name="n5" required> <i>Insulin</i>
+                    
+                    </div>
+
+                    <div class="inputBox" style="padding-bottom: 10px;">
+
+                        <input type="text" name="n6" required> <i>BMI</i>
+
+                    </div>
+
+                    <div class="inputBox" style="padding-bottom: 10px;">
+                    
+                        <input type="text" name="n7" required> <i>Diabetes Pedigree Function</i>
+                    
+                    </div>
+
+                    <div class="inputBox" style="padding-bottom: 10px;">
+                    
+                        <input type="text" name="n8" required> <i>Age</i>
+                    
+                    </div>
+
+                    
+                    <div class="inputBox" style="padding-bottom: 30px;">
+
+                        <input type="submit" value="SUBMIT">
+
+                    </div>
+                
+                </form>
+               
+                </div>
+                
+                <div class="res" style="color: aliceblue;">
+                    Your Result: {{ result2 }}
+                </div>
+
+               
+
+
+            </div>
+            
+        </div>
+
+    </section> <!-- partial -->
+
+
+    <script>
+
+
+        // JavaScript function to speak the result
+        function speakResult(text) {
+            if ('speechSynthesis' in window) { // Check if Web Speech API is supported
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.pitch=1.8;
+                utterance.rate=0.8;
+                window.speechSynthesis.speak(utterance);
+            } else {
+                alert("Sorry, your browser does not support speech synthesis.");
+            }
+        }
+
+        // Call the speakResult function with the Django variable
+        speakResult("Your diabetes prediction result is {{ result2 }}");
+
+    </script>
+
+
+
+</body>
+
+</html>
