@@ -64,7 +64,7 @@ def predict(request):
 
 
 def result(request):
-    data = pd.read_csv(r"diabetes.csv")
+    data = pd.read_csv("diabetes.csv")
     
     x = data.drop('Outcome',axis=1)
     y = data['Outcome']
